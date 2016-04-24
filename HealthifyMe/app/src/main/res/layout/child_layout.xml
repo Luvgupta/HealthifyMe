@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="70dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp">
+
+    <LinearLayout
+        android:id="@+id/child_layout"
+        android:padding="15dp"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/child_start_time"
+            android:text="01:00 PM"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/separator"
+            android:textSize="18sp"
+            android:text="-"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/child_end_time"
+            android:textSize="18sp"
+            android:text="01:15 PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_below="@+id/child_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:background="@color/child_disable_background_color"
+        android:layout_height="1px"/>
+</RelativeLayout>

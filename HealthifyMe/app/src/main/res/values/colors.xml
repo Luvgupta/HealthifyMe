@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF44336</color>
+    <color name="colorPrimaryDark">#FFF44336</color>
+    <color name="colorAccent">#FFF44336</color>
+
+    <color name="parent_background_color">#e6e6e6</color>
+    <color name="child_enable_background_color">#fff</color>
+    <color name="child_disable_background_color">#ccc</color>
+
+    <color name="toolbarColor">#FFF44336</color>
+
+    <color name="black">#000</color>
+
+</resources>
